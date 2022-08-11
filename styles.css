@@ -9,7 +9,7 @@ body {
 }
 #logo{
     
-    max-height: 300px;
+    max-height: 200px;
     border:none;
     object-fit:contain;
   
@@ -20,7 +20,7 @@ body {
     display:flex;
     align-items:center;
     justify-content: center;
-    height:300px;
+    height:200px;
     background-image: url("images/oldpaper.jpg");
     background-size:cover;
     border-width:10px;
