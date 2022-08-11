@@ -3,14 +3,37 @@ body {
     color:#1a234e;
     justify-content: center;
     font-family: 'Caveat', cursive;
+    background-image: url("images/swordandboardlogowhite.png");
+    background-size:300px;
+    background-attachment: fixed;
+}
+#logo{
+    
+    max-height: 300px;
+    border:none;
+    object-fit:contain;
+  
+    
     
 }
-
+#title{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:300px;
+    background-image: url("images/oldpaper.jpg");
+    background-size:cover;
+    border-bottom:10px #f2cc81;
+    
+}
 h1{
-    color:#f2cc81;
+    color:#1a234e;
     text-align:center;
     font-weight: bolder;
     font-size:80px;
+    display:inline;
+    position:relative;
+    
 }
 
 h3{
@@ -30,6 +53,8 @@ h3{
     display: block;
     margin-left:auto;
     margin-right:auto;
+    border:none;
+
 }
 
 #allies{
@@ -75,9 +100,22 @@ article {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+#namepic{
+  display:flex; 
+  flex-direction:column; 
+  align-items: center;
+  
+}
 
 footer {
     color:#f2cc81;
+}
+#nameplate{
+    border:none;
+    border-radius:0;
+    width:30%;
+    position:relative;
+    top: 15px;
 }
 
 img{

@@ -21,11 +21,20 @@
    </head>
 
    <body>
-      <main><h1>Welcome to the Sword &amp; Board!</h1>
-         <div><img id="ScurvyProfilePic" src="images/anglescurvy22.jpg" alt = "Scurvy profile image"></div>
+      <main>
+        <div id="title"><h1>Welcome to the</h1> 
+        <img src="images/swordandboardlogo.png" id="logo" alt = "Sword and Board Logo"></div>
+        
          <article class="headerlabel"><header>
                <h2>Character Overview</h2>
             </header></article>
+        
+        <div id="namepic">
+          <img src="images/scurvynameplate.png" alt = "Scurvy Nameplate" id="nameplate">
+          <img id="ScurvyProfilePic" src="images/scurvygold.png" alt = "Scurvy profile image">
+          
+        </div>
+         
          <div class="Article-flexbox">
             
                <article>
@@ -33,7 +42,7 @@
             <div>
                <h3>Profile</h3>
                <p>
-                  Name: Scurvy<br>Age: 42<br>Height: 6'2"<br>Race: Human<br>Birthplace: Port of Acknar<br>Element: Water<br>Other Aliases: None
+                  Full Name: Scurvy<br>Age: 42<br>Height: 6'2"<br>Race: Human<br>Birthplace: Port of Acknar<br>Element: Water<br>Other Aliases: None
                </p>
               
             </div>
@@ -98,7 +107,21 @@
          </article> 
          
           <section class ="gallery">
-            <div class="row">
+            
+            <!-- The expanding image container -->
+             <div class="container">
+               <!-- Close the image -->
+               <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+             
+               <!-- Expanded image -->
+               <img id="expandedImg" style="width:100%">
+             
+               <!-- Image text -->
+               <div id="imgtext"></div>
+             </div>
+            
+            
+             <div class="row">
                <div class="column">
                  <img src="images/Ahyareocto.jpg" alt="The Beer Run" onclick="myFunction(this);">
                </div>
@@ -150,19 +173,24 @@
               <div class="column">
                  <img src="images/Scurv22viewsm.jpg" alt="Multiple Head Views 1" onclick="myFunction(this);">
                </div>
+               <div class="column">
+                <img src="images/disgusting.JPG" alt="Disgusting!" onclick="myFunction(this);">
+              </div>
+             <div class="column">
+                <img src="images/multiviewscurvy3.JPG" alt="Multiple Head Views 2" onclick="myFunction(this);">
+              </div>
              </div>
              
-             <!-- The expanding image container -->
-             <div class="container">
-               <!-- Close the image -->
-               <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+             <div class="row">
+              <div class="column">
+                <img src="images/yougotitscurvy.JPG" alt="You Got It!" onclick="myFunction(this);">
+              </div>
+             <div class="column">
+                <img src="images/Multiview scurvy 2.JPG" alt="Multiple Head Views 3" onclick="myFunction(this);">
+              </div>
+              
+            </div>
              
-               <!-- Expanded image -->
-               <img id="expandedImg" style="width:100%">
-             
-               <!-- Image text -->
-               <div id="imgtext"></div>
-             </div>
           </section>
          
             
