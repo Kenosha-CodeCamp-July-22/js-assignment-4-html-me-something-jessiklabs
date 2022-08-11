@@ -23,7 +23,9 @@ body {
     height:300px;
     background-image: url("images/oldpaper.jpg");
     background-size:cover;
-    border-bottom:10px #f2cc81;
+    border-width:10px;
+    border-style: solid;
+    border-color:#f2cc81;
     
 }
 h1{
@@ -42,10 +44,7 @@ h3{
     text-decoration: underline;
     text-align:center;
 }
-#personality{
-    text-align: left;
-    padding-left:1em
-}
+
 
 #ScurvyProfilePic{
     width: 90vw;
@@ -148,7 +147,10 @@ img{
 
 
 }
-
+#personalitylist{
+    font-size: 1.5em;
+    text-align: left;
+}
 #allygroup img {
     border:none;
 }
