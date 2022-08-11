@@ -32,7 +32,7 @@ h1{
     color:#1a234e;
     text-align:center;
     font-weight: bolder;
-    font-size:80px;
+    font-size:4em;
     display:inline;
     position:relative;
     
@@ -86,7 +86,7 @@ article {
     border-style: solid;
     display:block;
     text-align:center;
-    font-size: 1.5vw;
+    font-size: 1em;
     background-image: url("images/oldpaper.jpg");
     background-size: cover;
 }
@@ -95,9 +95,12 @@ article {
     
 }
 .Article-flexbox {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display:flex; 
+     flex-wrap: wrap;
+    justify-content: center;
+    height:auto;
+    position:relative;
+    top: -60px;
 }
 #namepic{
   display:flex; 
